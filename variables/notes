@@ -1,0 +1,10 @@
+## Types of variables
+
+### System Variables
+They are the variables created by your system (OS).
+They usually defined using UPPER CASE LETTERS
+
+### User defined variables
+Those variables are defined by the users.
+
+## The name of a variable should never start by a number.
