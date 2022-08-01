@@ -1,0 +1,11 @@
+AND operator
+There are three way to apply AND operator in Bash Scripting
+1- The use of "&&" with one square bracket
+   exemple:
+   if [ "$age" -gt 21 ] && [ "$age" -lt 35 ] 
+2- The use of "&&" with two square brackets:
+   exemple:
+   if [[ "$age" -gt 21 && "$age" -lt 35 ]]
+3- The use of "-a"
+   exemple:
+   if [ "$age" -gt 21 -a "$age" -lt 35 ]
